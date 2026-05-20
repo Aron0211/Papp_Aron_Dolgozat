@@ -158,4 +158,8 @@ p{
 nav ul{
     grid-template-columns: 1fr;
 }
+
+body{
+    max-width: 100%;
+}
 }
