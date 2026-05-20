@@ -5,6 +5,7 @@
 main{
     font-family: Arial, Helvetica, sans-serif;
     max-width: 1200px;
+    width: 80%;
     text-align: justify;
     margin: auto;
     padding: auto;
@@ -15,6 +16,7 @@ main{
         "n n n n"
         "as ar ar ar"
         "f f f f";
+    background-color: rgb(226, 200, 200);
 }
 
 
