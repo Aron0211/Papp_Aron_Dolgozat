@@ -5,9 +5,9 @@
 main{
     font-family: Arial, Helvetica, sans-serif;
     max-width: 1200px;
-    text-align: center;
-    margin: 5px;
-    padding: 5px;
+    text-align: justify;
+    margin: auto;
+    padding: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas: 
@@ -69,7 +69,8 @@ nav li:hover{
 
 nav ul{
     display: grid;
-    grid-template-columns: 100px 100px;
+    grid-template-columns: auto auto;
+    justify-content: center;
 }
 
 nav a{
@@ -81,10 +82,13 @@ nav a{
 aside{
     grid-area: as;
     padding: 10px;
+    margin: 10px;
+    background-color: rgb(236, 226, 226);
 }
 
 aside h3{
     text-align: left;
+    font-style: italic;
 }
 
 
@@ -92,6 +96,7 @@ aside h3{
 article{
     grid-area: ar;
     padding: 10px;
+    margin: 10px;
 }
 
 article img{
@@ -108,12 +113,19 @@ article img{
     gap: 10px;
 }
 
+.kepek h2{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 footer{
     grid-area: f;
     background-color: rgb(224, 168, 168);
     border-radius: 0 0 10px 10px ;
     margin: 10px;
     padding: 15px;
+    text-align: center;
 }
 
 
@@ -132,5 +144,15 @@ grid-template-areas:
 
 p{
     font-size: calc(10px + 2vw);
+    text-align: justify;
+}
+
+.kepek{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+nav ul{
+    grid-template-columns: 1fr;
 }
 }
